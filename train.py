@@ -14,7 +14,7 @@ from tqdm.keras import TqdmCallback
 data_path = os.path.join("data", "iris.csv")
 weights_path = "model.weights.h5"
 log_path = "metrics.csv"
-epochs = 50
+epochs = 20
 batch_size = 8
 
 # Load CSV data
